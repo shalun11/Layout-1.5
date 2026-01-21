@@ -70,6 +70,7 @@ img {
 }
 
 .brands__wrapper {
+  max-width: 1200px;
   max-height: 119px;
   flex-wrap: wrap;
   gap: 16px;
