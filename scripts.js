@@ -17,7 +17,6 @@ const swiper = new Swiper('.brands__slider', {
 let buttonHidden = document.querySelector(".button-hidden");
 let buttonHiddenText = buttonHidden.querySelector(".button-hidden__text");
 let brandsWrapper = document.querySelector(".brands__wrapper");
-console.log(brandsWrapper);
 
 buttonHidden.addEventListener("click", () => {
 
