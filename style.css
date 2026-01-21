@@ -31,6 +31,10 @@ img {
   height: auto;
 }
 
+.brands {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 .brands-title {
   width: 100%;
   padding: 16px 32px;
