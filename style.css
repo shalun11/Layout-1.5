@@ -58,7 +58,7 @@ img {
 .brands__slider::before {
   content: "";
   width: 24px;
-  height: 81px;
+  height: 100%;
   display: block;
   position: absolute;
   right: 0;
