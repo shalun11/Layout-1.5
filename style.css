@@ -51,7 +51,21 @@ img {
 }
 
 .brands__slider {
+  position: relative;
   padding: 32px;
+}
+
+.brands__slider::before {
+  content: "";
+  width: 24px;
+  height: 81px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: linear-gradient(270deg, #f8f8f8 0.04%, rgba(248, 248, 248, 0) 100%);
+  pointer-events: none;
+  z-index: 2;
 }
 
 .swiper-slide {
